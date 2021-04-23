@@ -3,25 +3,30 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-#section-menu {
+.topnav {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
-	padding: 20px;
-}
-ul {
-	display: flex;
-	flex-direction: row;
-	width: 100vw;
 	background-color: transparent;
-	justify-content: flex-end;
-	list-style: none;
+	color: white;
+	justify-content: space-between;
+	padding: 11px;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
-li {
-	margin-right: 50px;
-	text-decoration: none;
-	font-size: 20px;
-	cursor: pointer;
+#container-menu {
+	display: none;
 }
+
+#container-menu.showMenu {
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin-top: 11px;
+	color: white;
+}
+
 #section-hero {
 	height: 100vh;
 	width: 100%;
