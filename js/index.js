@@ -1,9 +1,7 @@
 console.log('eli');
-const iconMenu = document.querySelector('icon');
 
 function ToggleMenu() {
-	let element = document.getElementById('container-menu');
+	const element = document.getElementById('container-menu');
 	element.classList.toggle('showMenu');
+	element.addEventListener('click', ToggleMenu);
 }
-
-iconMenu.addEventListener('click', ToggleMenu);
