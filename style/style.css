@@ -86,13 +86,13 @@ p {
 .one,
 .three,
 .five {
-	background-color: tomato;
+	background-color: white;
 }
 
 .four,
 .six,
 .two {
-	background-color: violet;
+	background-color: white;
 }
 img {
 	width: 100%;
