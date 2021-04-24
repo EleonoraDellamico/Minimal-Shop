@@ -79,20 +79,22 @@ p {
 .container {
 	display: grid;
 	grid-template-columns: 1fr; /*100px auto 100px*/
-	grid-template-rows: 300px 300px 300px;
+	grid-template-rows: 300px 300px 300px 300px 300px;
 	/* grid-template: repeat (2, 50px)/ repeat(2, 1fr); */
 	grid-gap: 3px;
 }
-.one,
-.three,
-.five {
-	background-color: white;
+.two {
+	background-color: tomato;
 }
 
-.four,
-.six,
-.two {
-	background-color: white;
+.three {
+	background-color: rgb(28, 139, 139);
+}
+.four {
+	background-color: sandybrown;
+}
+.five {
+	background-color: rgb(253, 139, 158);
 }
 img {
 	width: 100%;
